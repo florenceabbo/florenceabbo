@@ -1,0 +1,31 @@
+# 1. Division and Square-root
+# Write a function called divide_or_square that takes one argument (a number), and
+# returns the square root of the number if it is divisible by 5, returns its remainder if it is
+# not divisible by 5. For example, if you pass 10 as an argument, then your function
+# should return 3.16 as the square root
+# from tkinter import X
+
+
+# def divide_or_square(num):
+#     if num % 5 == 0:
+#       square_root = num **0.5
+#       print("The square root of the number is:" +str(round(square_root,2)))
+
+#     else:
+#         remainder = num % 5
+#         print("The rwmainder after dividing by 5 is:" + str( remainder))
+# num = int(input("Enter the number here:"))
+# divide_or_square(num)
+
+# 2. Strings to Integers
+# Write a function called convert_add that takes a list of strings as an argument and
+# converts it to integers and sums the list. For example [‘1’, ‘3’, ‘5’] should be
+# converted to [1, 3, 5] and summed to 9
+# def convert_add(strings):
+   
+#     sum = 0
+#     for x in strings:
+#       sum += int(x)
+#     print(f"The sum of {strings} is {sum}")
+# strings = ["1", "3", "5"]    
+# convert_add(strings)
